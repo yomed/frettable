@@ -2,7 +2,7 @@
 
 function frettable(notes) {
     var fingers = [];
-    var numFingers = 4;
+    var numFingers = 3;
     var newGroup;
     var diff;
     var fingerSpot = function (string, fret) {
