@@ -1,0 +1,29 @@
+{
+  "name": "frettable",
+  "version": "0.0.1",
+  "description": "determine if a chord configuration is physically frettable",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yomed/frettable.git"
+  },
+  "keywords": [
+    "guitar",
+    "chord",
+    "frets",
+    "notes"
+  ],
+  "author": "Yoni Medoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yomed/frettable/issues"
+  },
+  "homepage": "https://github.com/yomed/frettable",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  }
+}
