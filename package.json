@@ -1,7 +1,7 @@
 {
   "name": "frettable",
-  "version": "0.0.1",
-  "description": "determine if a chord configuration is physically frettable",
+  "version": "0.0.2",
+  "description": "determine if a set of notes can be physically fretted on guitar",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
