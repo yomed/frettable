@@ -4,6 +4,7 @@
   "description": "determine if a set of notes can be physically fretted on guitar",
   "main": "index.js",
   "scripts": {
+    "lint": "jshint **.js && jscs **.js",
     "test": "mocha"
   },
   "repository": {
@@ -24,6 +25,8 @@
   "homepage": "https://github.com/yomed/frettable",
   "devDependencies": {
     "chai": "^3.4.1",
+    "jscs": "^2.8.0",
+    "jshint": "^2.9.1",
     "mocha": "^2.3.3"
   }
 }

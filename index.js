@@ -5,12 +5,12 @@ function fingerSpot(fret, string) {
         fret: fret,
         string: string
     };
-};
+}
 
 function filterAbove(note) {
     return function (i) {
         return i >= note;
-    }
+    };
 }
 
 function frettable(notes) {
