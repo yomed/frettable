@@ -1,5 +1,5 @@
 {
-    "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
+    "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch", "case", "default"],
     "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
     "requireSpaceBeforeKeywords": ["else", "while", "catch"],
     "requireParenthesesAroundIIFE": true,
@@ -7,8 +7,16 @@
         "beforeOpeningCurlyBrace": true
     },
     "requireSpacesInAnonymousFunctionExpression": {
-        "beforeOpeningRoundBrace": true,
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "requireSpacesInFunctionDeclaration": {
         "beforeOpeningCurlyBrace": true
+    },
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
     },
     "disallowSpacesInCallExpression": true,
     "disallowEmptyBlocks": true,
@@ -23,13 +31,16 @@
     "disallowMultipleLineBreaks": true,
     "validateLineBreaks": "LF",
     "validateQuoteMarks": "'",
+    "disallowQuotedKeysInObjects": {"allExcept": ["reserved"]},
     "validateIndentation": 4,
     "disallowMixedSpacesAndTabs": true,
     "requireCapitalizedConstructors": true,
     "requireDotNotation": true,
     "disallowNewlineBeforeBlockStatements": true,
+    "requirePaddingNewLinesAfterUseStrict": true,
     "disallowTrailingWhitespace": true,
-    "disallowMultipleVarDecl": true,
+    "disallowTrailingComma": true,
+    "disallowMultipleVarDecl": "strict",
     "requireSpacesInForStatement": true,
     "requireSpaceBetweenArguments": true,
     "requireSemicolons": true,
@@ -38,6 +49,7 @@
     "disallowSpaceBeforeSemicolon": true,
     "requireLineFeedAtFileEnd": true,
     "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+    "safeContextKeyword": ["that"],
     "jsDoc": {
         "checkAnnotations": "closurecompiler",
         "checkTypes": "strictNativeCase"
