@@ -1,6 +1,6 @@
 {
   "name": "frettable",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "determine if a set of notes can be physically fretted on guitar",
   "main": "index.js",
   "scripts": {
