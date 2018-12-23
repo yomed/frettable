@@ -6,7 +6,7 @@ function frettable(frets) {
 
     frets.forEach(function (fret, string) {
         let newGroup = [];
-        let note = {fret, string};
+        let note = { fret, string };
 
         if (fret > 0) {
             let needNewGroup = true;

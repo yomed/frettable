@@ -1,12 +1,8 @@
-'use strict';
-
-const test = require('ava').test;
+const test = require('ava');
 const frettable = require('../');
 
 function verify(t, isFrettable) {
-    return chord => {
-        t.is(frettable(chord), isFrettable);
-    };
+    return chord => t.is(frettable(chord), isFrettable);
 }
 
 test('handles basic cases', t => {
@@ -14,7 +10,7 @@ test('handles basic cases', t => {
         [-1, -1, -1, -1, -1, -1],
         [0, 0, 0, 0, 0, 0],
         [1, 0, 0, 0, 0, 0],
-        [1, 0, 0, 0, 0, 0]
+        [2, 1, 0, 0, 0, 0]
     ].forEach(verify(t, true));
 });
 test('handles weird barring', t => {
