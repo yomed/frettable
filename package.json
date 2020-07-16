@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/yomed/frettable",
   "devDependencies": {
-    "ava": "^3.5.0",
-    "eslint": "^6.8.0",
+    "ava": "^3.10.1",
+    "eslint": "^7.4.0",
     "eslint-config-yomed": "^1.4.0"
   }
 }
